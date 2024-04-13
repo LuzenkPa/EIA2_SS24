@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+}
+#linkerBlock {
+    left: 0;
+    position: absolute;
+    background-color: aqua;
+    height: 80%;
+    width: 45%;
+   
+}
+#rechterBlock {
+    right: 0;
+    position: absolute;
+    background-color: aqua;
+    height: 80%;
+    width: 45%;
+}
+span {
+    position: fixed;
+    display: none; /* Anfangs ausblenden */
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+  }
+.box{
+    position: fixed;
+    
+}
