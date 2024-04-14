@@ -1,7 +1,26 @@
+#span{
+    position:fixed;
+    height: 100px;
+    width: 210px;
+    border: thin solid black;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    text-align: center;
+    flex-direction: column;
+    background-color: azure;
+    margin-left: 20px;
+    margin-top: 15px;
+    z-index: 9999; 
+    
+}
+
 body {
     background-color: antiquewhite;
 }
-#linkerBlock {
+#div0 {
     left: 0;
     position: absolute;
     background-color: aqua;
@@ -9,24 +28,11 @@ body {
     width: 45%;
    
 }
-#rechterBlock {
+#div1 {
     right: 0;
     position: absolute;
     background-color: aqua;
     height: 80%;
     width: 45%;
 }
-span {
-    position: fixed;
-    display: none; /* Anfangs ausblenden */
-    width: 100px;
-    height: 50px;
-    background-color: #ccc;
-    border: 1px solid #000;
-    text-align: center;
-    line-height: 50px;
-  }
-.box{
-    position: fixed;
-    
-}
+
