@@ -1,33 +1,32 @@
 "use strict";
-var scribblecode;
-(function (scribblecode) {
+var EventInspector;
+(function (EventInspector) {
     window.addEventListener("load", handleLoad);
-    function handleLoad(_event) {
+    function handleLoad() {
         document.addEventListener("mousemove", setInfoBox);
         document.addEventListener("click", logInfo);
         document.addEventListener("keyup", logInfo);
-        document.getElementById("div0")?.addEventListener("keyup", logInfo);
-        document.getElementById("div0")?.addEventListener("click", logInfo);
-        document.getElementById("div1")?.addEventListener("keyup", logInfo);
-        document.getElementById("div1")?.addEventListener("click", logInfo);
         document.body.addEventListener("click", logInfo);
         document.body.addEventListener("keyup", logInfo);
+        document.getElementById("div0")?.addEventListener("click", logInfo);
+        document.getElementById("div0")?.addEventListener("keyup", logInfo);
+        document.getElementById("div1")?.addEventListener("click", logInfo);
+        document.getElementById("div1")?.addEventListener("keyup", logInfo);
     }
-    ;
     function setInfoBox(_event) {
-        let x = _event.clientX;
-        let y = _event.clientY;
         let span = document.getElementById("span");
-        span.style.top = y + "px";
-        span.style.left = x + "px";
-        span.innerHTML = "Mouseposition " + x + " " + y + _event.target;
+        let X = _event.clientX;
+        let Y = _event.clientY;
+        let offsetX = 10;
+        let offsetY = 10;
+        if (span) {
+            span.innerHTML = `${X}, ${Y}, ${_event.target}`;
+            span.style.left = _event.clientX + offsetX + "px";
+            span.style.top = _event.clientY + offsetY + "px";
+        }
     }
-    ;
     function logInfo(_event) {
-        console.log("type: " + _event.type);
-        console.log("target: " + _event.target);
-        console.log("currentTarget: " + _event.currentTarget);
-        console.log("event: " + _event);
+        console.log(_event.type, _event.target, _event.currentTarget, _event);
     }
-})(scribblecode || (scribblecode = {}));
+})(EventInspector || (EventInspector = {}));
 //# sourceMappingURL=scribblecode.js.map
