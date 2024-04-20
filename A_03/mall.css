@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+#liste{
+    background-color: antiquewhite;
+    position: absolute;
+    width: 48%;
+    height: 80%;
+    left: 0;
+}
+#item {
+background-color: antiquewhite;
+position: absolute;
+width: 48%;
+height: 80%;
+right: 0;
+}

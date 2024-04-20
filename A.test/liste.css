@@ -1,0 +1,105 @@
+/*body {
+    background-color: bisque;
+}
+#div1{
+    background-color: blanchedalmond;
+    position: absolute;
+    height: 80%;
+    width: 48%;
+    left: 0;
+}
+#item {
+    background-color: blanchedalmond;
+    position: absolute;
+    height: 80%;
+    width: 48%;
+    right: 0;
+}
+#einkaufsliste {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#liste {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.plus,
+.minus {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.menge {
+    margin-left: 10px;
+}
+*/
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+#div1 {
+    background-color: blanchedalmond;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#item {
+    background-color: blanchedalmond;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#einkaufsliste {
+    width: 300px;
+    padding: 10px;
+}
+
+#liste {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.plus,
+.minus {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.menge {
+    margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

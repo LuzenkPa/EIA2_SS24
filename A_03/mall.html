@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mall.css">
+    <title>Let's Go to the Mall!</title>
+</head>
+
+<body>
+    <h1>Let's Go to the Mall!</h1>
+    <form>
+        <div id="liste">
+            <h2>Einkaufsliste</h2>
+            <!--<div class="checkbox">
+                <label for="checkbox"></label>-->
+            <div id="platz1">
+                <!-- nach checkbox grau werden lassen -->
+                <input type="checkbox" name="gekauft" id="gekauft"><span class="listenelement">1,5L Milch
+                    <!--<button>+/-</button>--></span>
+            </div>
+            <div id="platz2">
+                <input type="checkbox" name="gekauft" id="gekauft"><span class="listenelement">500g Butter
+                    <!--<button>-</button>--></span>
+            </div>
+            <!-- </div>
+            <input name="listenelement" placeholder="neu">
+            <input type="textarea" name="Einheit" placeholder="Einheit">-->
+            <div id="+">
+                <!-- überleiten zum item div und dort eingeben -->
+                <button type="button" class="hinzufügen">+</button>
+            </div>
+        </div>
+    </form>
+    <div id="item">
+        <h2>Produkt</h2>
+        <span class="clicked">
+            <h3>Milch</h3>
+        </span>
+        <div id="date">
+            <!-- mit new date dann manipulieren -->
+            <p>zuletzt gekauft <span id="datum">00.00.00</span></p>
+        </div>
+        <div id="Menge">Anzahl
+            <input type="text" name="menge" id="menge">
+        </div>
+        <div id="Einheit">Einheit
+            <input type="text" name="einheit" id="einheit">
+        </div>
+        <div id="comment">Kommentar
+            <input type="text" name="comment" id="comment">
+        </div>
+        <!-- ausgewähltes item raus-->
+        <div id="minus"><button>entfernen</button></div>
+    </div>
+
+</body>
+<footer>
+    <h4>♫today♫</h4>
+</footer>
+
+</html>
+<!-- -->
