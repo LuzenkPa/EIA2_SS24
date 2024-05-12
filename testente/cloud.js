@@ -10,7 +10,7 @@ class Cloud {
         this.y = y;
         this.color = color;
     }
-    draw(context) {
+    draw() {
     }
 }
 exports.Cloud = Cloud;

@@ -10,7 +10,7 @@ class Mountain {
         this.y = y;
         this.color = color;
     }
-    draw(context) {
+    draw() {
     }
 }
 exports.Mountain = Mountain;

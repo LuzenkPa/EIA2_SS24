@@ -11,6 +11,6 @@ export class Duck {
        // this.state = "schwimmen";
     }
 
-    draw(context: CanvasRenderingContext2D) {
+    draw():void {
     }
 }

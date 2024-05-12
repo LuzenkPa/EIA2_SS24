@@ -10,7 +10,7 @@ class Sun {
         this.y = y;
         this.color = color;
     }
-    draw(context) {
+    draw() {
     }
 }
 exports.Sun = Sun;

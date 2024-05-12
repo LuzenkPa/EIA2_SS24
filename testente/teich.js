@@ -10,7 +10,7 @@ class Teich {
         this.y = y;
         this.color = color;
     }
-    draw(context) {
+    draw() {
     }
 }
 exports.Teich = Teich;

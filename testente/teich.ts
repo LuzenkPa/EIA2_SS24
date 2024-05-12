@@ -10,6 +10,6 @@ export class Teich {
         this.color = color;
     }
 
-    draw(context: CanvasRenderingContext2D) {
+    draw():void {
     }
 }

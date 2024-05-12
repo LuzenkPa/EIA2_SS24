@@ -12,7 +12,7 @@ class Duck {
         this.color = color;
         // this.state = "schwimmen";
     }
-    draw(context) {
+    draw() {
     }
 }
 exports.Duck = Duck;

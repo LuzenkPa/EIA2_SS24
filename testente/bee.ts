@@ -9,6 +9,6 @@ export class Bee {
         this.color = color;
     }
 
-    draw(context: CanvasRenderingContext2D) {
+    draw():void {
     }
 }

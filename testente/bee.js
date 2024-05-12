@@ -10,7 +10,7 @@ class Bee {
         this.y = y;
         this.color = color;
     }
-    draw(context) {
+    draw() {
     }
 }
 exports.Bee = Bee;
