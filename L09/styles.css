@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 769px) {
+    canvas {
+        width: 1200px;
+        height: 1000px;
+    }
+}
+
+#Bild {
+    width: 800px;
+    height: 600px;
+}
