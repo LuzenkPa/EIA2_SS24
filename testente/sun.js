@@ -8,9 +8,6 @@ var Testente;
             this.x = x;
             this.y = y;
         }
-        move() {
-            // Sonne bewegt sich nicht
-        }
         draw() {
             Testente.crc2.save();
             Testente.crc2.translate(this.x, this.y); // Verschieben zum Mittelpunkt der Sonne

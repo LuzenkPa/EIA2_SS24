@@ -1,5 +1,7 @@
-namespace Testente {
-    export class Sun {
+import { Drawable } from './drawable';
+
+namespace Teste {
+    export class Sun implements Drawable {
         x: number;
         y: number;
 
@@ -36,3 +38,4 @@ namespace Testente {
         }
     }
 }
+

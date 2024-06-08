@@ -1,5 +1,6 @@
-namespace Testente {
-    export class Sun {
+// sun.ts
+namespace Testenten {
+    export class Sun implements Drawable {
         x: number;
         y: number;
 
@@ -10,7 +11,7 @@ namespace Testente {
 
         draw(): void {
             crc2.save();
-            crc2.translate(this.x, this.y); // Verschieben zum Mittelpunkt der Sonne
+            crc2.translate(this.x, this.y);
 
             // Sonnenkreis
             crc2.fillStyle = "yellow";
